@@ -1,16 +1,18 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # Project Name
-
+  Portfolio: setup and mobile version skeleton
+  
 > Description the project.
-
+  This project include my introduction, about my work, some of my related images and my language skills
 
 ## Built With
 
 - Major languages
+- Html and CSS
 - Frameworks
 - Technologies used
-
+  Linter
 ## Live Demo (if available)
 
 [Live Demo Link](https://livedemo.com)
