@@ -3,6 +3,10 @@ margin: 0;
 padding: 0;
 box-sizing: border-box;
 }
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
 html, body {
 overflow-x: hidden;
 }
@@ -100,6 +104,9 @@ margin-left: 5px;
 }
 .center-rect {
     width: 50px;
+    }
+.social-contact {
+ margin-left: 3px;
 }
 .social-contact {
     margin-left: 3px;
