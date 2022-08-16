@@ -1,1 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+html,body {
+  overflow-x: hidden;
+ 
+}
+
+.top-bar {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 12px;
+}
+
+.menu-icon {
+  padding-left: 300px;
+  padding-top: 40px;
+  
+  color: #6070ff;
+}
+.menu {
+  margin-top: 20px;
+}
+
+.logo {
+  padding-left: 20px;
+  padding-top: 10px;
+  font-family: serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6070ff;
+  text-decoration: none;
+}
+
+.left-ellipse {
+  padding-top: 150px;
+  padding-left: 0;
+  margin-left: -17px;
+  width: 20px;
+}
+
+.left-ellipse img {
+  
+  width: 50px;
+  margin-top: -20px;
+}
+
+.center-ellipse1 {
+  margin-left: 140px;
+}
+
+.center-rectangle {
+  margin-left: 140px;
+  margin-top: -43px;
+ 
+}
+
+.center-rectangle img{
+ width: 40px;
+}
+
+.center-ellipse2 img {
+margin-left: 200px;
+}
+.right-ellipse {
+ margin-left: 390px;
+ margin-top: -60px;
+}
+
+.right-ellipse img {
+  width: 110px; 
+}
+
+.right-rectangle img {
+  width: 100px;
+ 
+}
+
+.right-rectangle {
+  margin-left: 360px;
+  margin-top: -150px;
+}
+
+.circle-bottom {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.ellipse-bottom-center {
+  margin-left: 170px;
+}
+
+.ellipse-bottom-right {
+  margin-left: 290px;
+  margin-top: -150px;
+}
+
+.header {
+  font-family: serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #7f8cff;
+  margin-left: 3px;
+}
+
+.social-icons {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.paragraph {
+  font-family: serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #344563;
+  text-align: left;
+  margin-left: 3px;
+}
+
+.text {
+  font-family: serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  color: #172b4d;
+  margin-left: 5px;
+}
+
+.center-rect {
+  width: 50px;
+}
+
+.social-contact {
+  margin-left: 3px;
+  margin-top: 10px;
+}
+
+main {
+  margin-top: 100px;
+  padding-left: 10px;
+}
