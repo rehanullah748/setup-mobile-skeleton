@@ -7,7 +7,7 @@
 html,
 body {
   overflow-x: hidden;
- }
+}
 
 .top-bar {
   display: flex;
@@ -19,6 +19,7 @@ body {
   padding-left: 300px;
   padding-top: 40px;
   color: #6070ff;
+  overflow: hidden;
 }
 
 .menu {
@@ -59,28 +60,28 @@ body {
 .center-rectangle {
   margin-left: 140px;
   margin-top: -43px;
- }
+}
 
 .center-rectangle img {
- width: 40px;
+  width: 40px;
 }
 
 .center-ellipse2 img {
-margin-left: 200px;
+  margin-left: 200px;
 }
 
 .right-ellipse {
- margin-left: 390px;
- margin-top: -60px;
+  margin-left: 390px;
+  margin-top: -60px;
 }
 
 .right-ellipse img {
-  width: 110px; 
+  width: 110px;
 }
 
 .right-rectangle img {
   width: 100px;
- }
+}
 
 .right-rectangle {
   margin-left: 360px;
@@ -114,6 +115,7 @@ margin-left: 200px;
 .social-icons {
   padding-left: 5px;
   padding-right: 5px;
+  margin-top: 5px;
 }
 
 .paragraph {
@@ -124,7 +126,8 @@ margin-left: 200px;
   line-height: 24px;
   color: #344563;
   text-align: left;
-  margin-left: 3px;
+  margin-left: 20px;
+  margin-top: 5px;
 }
 
 .text {
@@ -133,7 +136,7 @@ margin-left: 200px;
   font-weight: 700;
   line-height: 30px;
   color: #172b4d;
-  margin-left: 5px;
+  margin-left: 20px;
 }
 
 .center-rect {
@@ -141,11 +144,6 @@ margin-left: 200px;
 }
 
 .social-contact {
-  margin-left: 3px;
+  margin-left: 20px;
   margin-top: 10px;
-}
-
-main {
-  margin-top: 100px;
-  padding-left: 10px;
 }
