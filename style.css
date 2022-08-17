@@ -6,7 +6,7 @@
 
 html,
 body {
- overflow-x: hidden;
+  overflow-x: hidden;
  }
 
 .top-bar {
@@ -61,7 +61,7 @@ body {
   margin-top: -43px;
  }
 
-.center-rectangle img{
+.center-rectangle img {
  width: 40px;
 }
 
