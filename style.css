@@ -11,7 +11,7 @@ body {
 
 .top-bar {
   display: flex;
-  margin-top: 10px;
+  margin-top: 30px;
   margin-left: 12px;
 }
 
@@ -23,11 +23,16 @@ body {
 }
 
 .menu {
-  margin-top: 20px;
+  margin-top: 15px;
+  width: 50px;
+  margin-right: 100px;
+}
+
+.menu a {
+  margin-top: 15px;
 }
 
 .logo {
-  padding-left: 20px;
   padding-top: 10px;
   font-family: serif;
   font-style: normal;
@@ -39,111 +44,162 @@ body {
   text-align: center;
   color: #6070ff;
   text-decoration: none;
+  padding-left: 25px;
 }
 
 .left-ellipse {
-  padding-top: 150px;
-  padding-left: 0;
-  margin-left: -17px;
-  width: 20px;
-}
-
-.left-ellipse img {
-  width: 50px;
-  margin-top: -20px;
+  background-image: url('images/Ellipse11.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 35px;
+  height: 25px;
+  margin-top: 120px;
+  margin-left: -10px;
 }
 
 .center-ellipse1 {
-  margin-left: 140px;
-}
-
-.center-rectangle {
-  margin-left: 140px;
-  margin-top: -43px;
-}
-
-.center-rectangle img {
-  width: 40px;
-}
-
-.center-ellipse2 img {
+  background-image: url('images/Ellipse5.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 10px;
+  height: 10px;
   margin-left: 200px;
 }
 
+.center-rectangle {
+  background-image: url('images/Rectangle7.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  margin-left: 200px;
+  margin-top: -30px;
+}
+
+.center-ellipse2 {
+  background-image: url('images/Ellipse8.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 15px;
+  height: 15px;
+  margin-left: 250px;
+  margin-top: -100px;
+}
+
 .right-ellipse {
-  margin-left: 390px;
-  margin-top: -60px;
-}
-
-.right-ellipse img {
-  width: 110px;
-}
-
-.right-rectangle img {
-  width: 100px;
+  background-image: url('images/Ellipse3.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 60px;
+  height: 60px;
+  margin-left: 430px;
+  margin-top: 70px;
 }
 
 .right-rectangle {
-  margin-left: 360px;
-  margin-top: -150px;
+  background-image: url('images/Rectangle4.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 35px;
+  width: 80px;
+  height: 60px;
+  margin-left: 410px;
+  margin-top: -98px;
 }
 
-.circle-bottom {
-  margin-top: 50px;
+.text p {
   margin-left: 50px;
-}
-
-.ellipse-bottom-center {
-  margin-left: 170px;
-}
-
-.ellipse-bottom-right {
-  margin-left: 290px;
-  margin-top: -150px;
-}
-
-.header {
-  font-family: serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  color: #7f8cff;
-  margin-left: 3px;
-}
-
-.social-icons {
-  padding-left: 5px;
-  padding-right: 5px;
-  margin-top: 5px;
-}
-
-.paragraph {
   font-family: serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 24px;
   color: #344563;
-  text-align: left;
-  margin-left: 20px;
-  margin-top: 5px;
+  margin-top: 10px;
 }
 
-.text {
+.text h1 {
+  width: 327px;
+  height: 150px;
+  margin-left: 50px;
+  margin-top: 30px;
   font-family: serif;
   font-style: normal;
   font-weight: 700;
-  line-height: 30px;
+  font-size: 40px;
+  line-height: 52px;
   color: #172b4d;
-  margin-left: 20px;
 }
 
-.center-rect {
-  width: 50px;
+.social-contact h2 {
+  font-family: serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  margin-left: 50px;
+  margin-top: 12px;
 }
 
-.social-contact {
-  margin-left: 20px;
+.social-contact ul {
+  margin-left: 40px;
+  background: #fff;
+  list-style: none;
+  display: flex;
+  margin-top: 7px;
+}
+
+.social-contact ul li a {
+  padding: 8px;
   margin-top: 10px;
+}
+
+.circle-bottom {
+  background-image: url('images/Ellipse15.png');
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 90px;
+  margin-left: 80px;
+}
+
+.ellipse-bottom-center {
+  background-image: url('images/Ellipse4.png');
+  width: 25px;
+  height: 25px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 250px;
+}
+
+.ellipse-bottom-right {
+  background-image: url('images/Ellipse12.png');
+  width: 38px;
+  height: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-left: 340px;
+  margin-top: -170px;
+}
+
+.ellipse2-bottom-right {
+  background-image: url('images/Ellipse13.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 45px;
+  height: 40px;
+  margin-left: 320px;
+  margin-top: -5px;
+}
+
+.rectangle-bottom-center {
+  background-image: url('images/Rectangle5.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 95px;
+  height: 50px;
+  margin-left: 180px;
+  margin-top: 85px;
 }
