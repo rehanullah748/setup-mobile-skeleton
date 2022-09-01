@@ -32,6 +32,16 @@ body {
   margin-top: 15px;
 }
 
+.menu a :hover {
+  background-color: green;
+}
+
+.menu a :active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 .logo {
   padding-top: 10px;
   font-family: serif;
